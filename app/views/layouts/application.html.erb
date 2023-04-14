@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Very Best Debug</title>
+    <title>Photogram GUI</title>
     <%= csrf_meta_tags %>
 
     <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
@@ -15,6 +15,15 @@
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <li><a href="/users">Users</a></li>
+        <li><a href="/venues">Venues</a></li>
+      </ul>
+    </nav>
+    
     <%= yield %>
+
+    Copyright 2023, AppDev IBLASH team.
   </body>
 </html>
