@@ -33,4 +33,9 @@ class UsersController < ApplicationController
     redirect_to("/users/#{user.username}")
   end
 
+  def  home 
+
+    render({ :template => "user_templates/home.html.erb"})
+  end
+
 end
