@@ -34,6 +34,7 @@ class VenuesController < ApplicationController
  
     redirect_to("/venues/#{venue.id}")
   end
+  
    def update
     the_id = params.fetch("venue_id")
  
